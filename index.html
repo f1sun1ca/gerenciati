@@ -63,7 +63,13 @@
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
-              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Supra Computadora - UNICA</a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">HPC - UNICA</a>
             </div>
             <div class="collapse navbar-collapse" id="custom-collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -241,24 +247,27 @@
 
         <section class="module-medium" id="bot">
           <div class="container">
-            <div class="row">
+            <div class="row mt-50 mb-50">
               <div class="col-sm-6">
-                <h2 class="module-title font-alt">PROYECTO 04:<br>¿Dudas sobre Bitcoin?</h2>
-                <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
-                    <p class="module-subtitle">Nuestro bot inteligente, desarrollado en Microsoft Azure, te ayuda con tus dudas sobre la criptomoneda Bitcoin.</p>
-                  </div>
-                <div><center><img src="bitcoin.png" width="150px"></center></div>
-                </div>
+                <h2 class="module-title font-alt mt-30">Pregunta a nuestro bot inteligente</h2>
+                <div><center><img src="ai-d1.png"></center></div>
               </div>
               <div class="col-sm-6">
                 <div>
-                  <center><iframe id="chat" style="width: 400px; height: 500px; background-color: white; border:2px solid #4D53B1;" src=''></iframe></center>
+                  <center>
+                    <iframe
+                      id="chat"
+                      style="
+                        width: 400px;
+                        height: 575px;
+                        background-color: white;  
+                        " src=''></iframe>
+                  </center>
                   <script>
                     var xhr = new XMLHttpRequest();
                     xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
                     xhr.setRequestHeader('Authorization', 'BotConnector ' + 'yXjthYELALs.XcsXprgKGJor5c7y91HEEtRdUwu412919ejVkh49FvU');
-                    xhr.send();
+                    xhr.send();   
                     xhr.onreadystatechange = processRequest;
                     
                     function processRequest(e) {
@@ -303,7 +312,7 @@
               </div>
               <div class="col-sm-5">
                 <h4 class="font-altos">Información Adicional</h4>
-                <p class="font-alto"><br>Contacte con nosotros por cualquier consulta o dudas sobre la HPC (Supra computadora) de nuestra universidad.</p>
+                <p class="font-alto"><br>Contacte con nosotros por cualquier otra consulta o dudas sobre la HPC (Supra computadora) de nuestra universidad.</p>
                 <h4 class="font-altos">Ubicación</h4>
                 <p class="font-alto">Av. Direccion 123</p>
                 <h4 class="font-altos">Teléfono</h4>
@@ -323,7 +332,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="footer-social-links">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.facebook.com/SistemasUnica/"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                   <a href="#"><i class="fa fa-dribbble"></i></a>
                   <a href="#"><i class="fa fa-skype"></i></a>
